@@ -4,17 +4,11 @@
 .gitattributes
 .github/
 
-scripts/
-README.md
-
 # Ignore temporary and build-related files
 bin/
-build/
-dist/
-gradle/
-.gradle/
-gradlew
-gradlew.bat
+target/
+mvnw
+mvnw.cmd
 *.md
 **/.*log
 *.gz
@@ -40,12 +34,18 @@ ehthumbs.db
 Icon?
 ehthumbs_vista.db
 Desktop.ini
+scripts/
+README.md
+
+# Ignore app files
+scripts/
+README.md
+LICENSE
 
 # Docker files
 Dockerfile
 docker-compose.yml
 .dockerignore
 
-!settings.gradle
+!pom.xml
 !src/
-!build.gradle

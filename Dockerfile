@@ -12,11 +12,11 @@ RUN addgroup --system javauser && adduser -S -s /bin/false -G javauser javauser
 
 WORKDIR /app
 
-COPY --from=build /app/target/*.jar ./server.jar
+COPY --from=build /app/target/*.jar app.jar
 
 # Least privilege principle
 RUN chown -R javauser:javauser .
 
 USER javauser
 
-CMD ["java", "-jar", "server.jar"]
+CMD ["java", "-jar", "app.jar"]
