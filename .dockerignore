@@ -1,0 +1,51 @@
+# Ignore version control system files
+.git
+.gitignore
+.gitattributes
+.github/
+
+scripts/
+README.md
+
+# Ignore temporary and build-related files
+bin/
+build/
+dist/
+gradle/
+.gradle/
+gradlew
+gradlew.bat
+*.md
+**/.*log
+*.gz
+*.zip
+*.tar
+*.rar
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.DS_Store
+*.swp
+*.swo
+
+# Ignore editor-related files
+.vscode
+.idea
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+ehthumbs_vista.db
+Desktop.ini
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+!settings.gradle
+!src/
+!build.gradle
