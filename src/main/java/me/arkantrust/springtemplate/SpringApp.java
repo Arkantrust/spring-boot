@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringApp.class, args);
+		SpringApplication.run(SpringAppTest.class, args);
 		System.out.println("\nRunning at https://127.0.0.1:8080\n");
 	}
 
