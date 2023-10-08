@@ -1,4 +1,4 @@
-package me.arkantrust.springboot.auth;
+package me.arkantrust.springtemplate.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

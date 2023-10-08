@@ -1,4 +1,4 @@
-package me.arkantrust.springboot.config;
+package me.arkantrust.springtemplate.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

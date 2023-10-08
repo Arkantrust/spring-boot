@@ -1,10 +1,10 @@
-package me.arkantrust.springboot.auth;
+package me.arkantrust.springtemplate.auth;
 
 import lombok.RequiredArgsConstructor;
-import me.arkantrust.springboot.config.JwtService;
-import me.arkantrust.springboot.user.Role;
-import me.arkantrust.springboot.user.User;
-import me.arkantrust.springboot.user.UserRepository;
+import me.arkantrust.springtemplate.config.JwtService;
+import me.arkantrust.springtemplate.user.Role;
+import me.arkantrust.springtemplate.user.User;
+import me.arkantrust.springtemplate.user.UserRepository;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;

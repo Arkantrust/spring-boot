@@ -1,4 +1,4 @@
-package me.arkantrust.springboot.user;
+package me.arkantrust.springtemplate.user;
 
 import java.util.Optional;
 

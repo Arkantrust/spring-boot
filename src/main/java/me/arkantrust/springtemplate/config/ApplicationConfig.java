@@ -1,4 +1,4 @@
-package me.arkantrust.springboot.config;
+package me.arkantrust.springtemplate.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import lombok.RequiredArgsConstructor;
-import me.arkantrust.springboot.user.UserRepository;
+import me.arkantrust.springtemplate.user.UserRepository;
 
 @Configuration
 @RequiredArgsConstructor

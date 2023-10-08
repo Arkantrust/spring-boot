@@ -1,13 +1,16 @@
-package me.arkantrust.auth;
+package me.arkantrust.springtemplate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AuthApplicationTests {
+class SpringApp {
 
 	@Test
 	void contextLoads() {
+		
+		
+	
 	}
 
 }
